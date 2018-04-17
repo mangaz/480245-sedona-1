@@ -3,10 +3,133 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+              <li class="site-list__item">
+                  <a class="main-nav__link main-nav__link--active">Главная</a>
+                </li>
+                <li class="site-list__item">
+                  <a href="photo.html" class="main-nav__link">Фото и видео</a>
+                </li>
+                <li class="site-list__item">
+                  <a href="form.html" class="main-nav__link">Форма отзыва</a>
+                </li>
+                <li class="site-list__item">
+                    <a href="https://htmlacademy.ru" class="main-nav__link">HTML Academy</a>
+                </li>
+          </ul>
+          <div class="main-nav__block">
+            <a class="main-nav__logo">
+              <img class="main-nav__logo-image" src="#" width="" height="" alt="Sedona-City">
+            </a>
+            <button type="button" class="main-nav__toggle-btn"></button>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
+    <main class="page-main">
+      <h1 class="visually-hidden">Welcome to Sedona</h1>
+      <section class="info">
+        <div class="info__image">
+        <img class="info__picture" src="#" width="" height="" alt="welcome-to-sedona">
+        </div>
+        <div class="info-text-block">
+          <h2 class="intro__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+          <p class="intro__desc">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        </div>
+      </section>
 
+      <section class="features">
+        <div class="features__item picture-block">
+          <h2 class="picture-block__title">настоящий городок</h2>
+          <span class="picture-block__number">- №1 -</span>
+          <p class="picture-block__desc">седона не аттракцион для туристов, там течёт своя жизнь</p>
+        </div>
+        <div class="picture-block__picture">
+          <img src="#" width="" height="" alt="city">
+        </div>
+        <div class="features__item">
+          <div class="unpicture-block">
+            <img src="#" width="" height="" alt="house">
+            <h2 class="unpicture-block__title">Жильё</h2>
+            <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </div>
+          <div class="unpicture-block">
+            <img src="#" width="" height="" alt="gift">
+            <h2 class="unpicture-block__title">Сувениры</h2>
+            <p>Не только китайского, но и местного производства!</p>
+          </div>
+          <div class="unpicture-block">
+            <img src="#" width="" height="" alt="burger">
+            <h2 class="unpicture-block__title">Еда</h2>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруйтесь!</p>
+          </div>
+        </div>
+        <div class="features__item picture-block">
+          <h2 class="picture-block__title">там есть мост дьявола</h2>
+          <span class="picture-block__number">- №2 -</span>
+          <p class="picture-block__desc">да, по нему можно пройти! если вы осмелитесь, конечно</p>
+        </div>
+        <div class="picture-block__picture">
+          <img src="#" width="" height="" alt="mountains">
+        </div>
+        <div class="features__item"></div>
+          <div class="space-block">
+            <h2 class="space-block__title">небольшая площадь</h2>
+            <span class="space-block__number">- №3 -</span>
+            <p class="space-block__desc">все интересные места находятся очень близко</p>
+          </div>
+          <div class="space-block__item">
+            <h2 class="space-block__title">красивая дорога</h2>
+            <span class="space-block__number">- №4 -</span>
+            <p class="space-block__desc">ехать в седону из лас-вегаса совсем не скучно!</p>
+          </div>
+          <div class="space-block__item">
+            <h2 class="space-block__title">мало туристов</h2>
+            <span class="space-block__number">- №5 -</span>
+            <p class="space-block__desc">большинство едет в гранд каньон и толпится там</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="search-hotel">
+        <h2 class="search-hotel__title">Заинтересовались?</h2>
+        <p class="search-hotel__desc">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <a class="search-hotel__btn" href="#">Найти гостиницу</a>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="map">
+        <a class="map__google-link" target="_blank" href="#"></a>
+      </div>
+      <div class="page-footer__last-block">
+        <a class="page-footer__tag" href="#"> <p>#visitsedona</p> </a>
+      </div>
+
+      <div class="socials">
+        <a class="socials__btn socials__btn--twitter" href="#">
+          twitter
+        </a>
+        <a class="socials__btn socials__btn--fb" href="#">
+          facebook
+        </a>
+        <a class="socials__btn socials__btn--youtube" href="#">
+          youtube
+        </a>
+      </div>
+        <div class="page-footer__made-by">
+          <span class="page-footer__desc">Разработано</span>
+          <a class="page-footer__made-by-link" href="https://htmlacademy.ru/" title="HTMLAcademy.ru">
+            <img src="#" width="" height="" alt="html-academy">
+          </a>
+        </div>
+    </footer>
   </body>
 </html>
