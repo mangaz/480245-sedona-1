@@ -4,3 +4,26 @@
 .media__video-black-block {
     background-color: rgba(0,0,0,0.6)
 }
+.media__item-title, .media__item-likes-count {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 24px;
+}
+.media__item-text-author {
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+    text-transform: initial;
+}
+.media__title-video {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 26px;
+}
+.media__item-video-desc {
+    font-size: 14px;
+    color: #333333;
+    line-height: 24px;
+}
