@@ -1,0 +1,39 @@
+.sedona-form__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 26px;
+}
+.sedona-form__label {
+    font-size: 14px;
+    color: #333333;
+    line-height: 26px;
+}
+.sedona-form__input {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 26px;
+    text-transform: initial;
+}
+.sedona-form__submit {
+    background-color: #81b3d2;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 26px;
+}
+.sedona-form__desc-emotions {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 26px;
+}
+.sedona-form__label--radio, .sedona-form__label--checkbox {
+    text-transform: initial;
+}
+.sedona-form__input::placeholder, .sedona-form__desc-emotions::placeholder {
+    opacity: 1;
+    color: #000;
+}
