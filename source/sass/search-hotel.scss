@@ -16,3 +16,10 @@
     color: #333;
     line-height: 24px;
 }
+@media(min-width:$tablet) {
+    .search-hotel {
+        max-width: 458px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

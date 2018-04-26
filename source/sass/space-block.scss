@@ -1,3 +1,6 @@
+.space-block {
+    background-color: #eeeeee;
+}
 .space-block__title {
     font-size: 18px;
     font-weight: 700;
@@ -8,4 +11,9 @@
     font-size: 14px;
     color: #333;
     line-height: 21px;
+}
+@media(min-width:$tablet) {
+    .space-block {
+        width: 33.333333%
+    }
 }

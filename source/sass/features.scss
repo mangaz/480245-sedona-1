@@ -1,3 +1,17 @@
 .features__item--blue {
     background-color: #81b3d2;
 }
+@media(min-width:$tablet) {
+    .features__item--wrapper {
+        display: flex;
+    }
+    .features__wrapper {
+        display: flex;
+    }
+    .features__wrapper--reverse {
+        flex-direction: row-reverse;
+    }
+    .features__item--blue {
+        width: 266px;
+    }
+}

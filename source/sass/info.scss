@@ -14,4 +14,18 @@
     background-color: #dbe9f2;
     background-position: center top;
     background-repeat: no-repeat;
+    min-height: 390px;
+    display: flex;
+    align-items: center;
+}
+.info__picture {
+    display: block;
+    margin: 0 auto;
+}
+@media(min-width:$tablet) {
+    .info__text-block {
+        max-width: 488px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
