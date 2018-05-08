@@ -1,5 +1,12 @@
 .features__item--blue {
     background-color: #81b3d2;
+    padding: 22px 0;
+}
+.features__item--wrapper {
+    padding: 26px 0 28px;
+}
+.features__item--margin {
+    padding-top: 64px;
 }
 @media(min-width:$tablet) {
     .features__item--wrapper {

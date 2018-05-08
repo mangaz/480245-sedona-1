@@ -1,15 +1,25 @@
+.search-hotel {
+    text-align: center;
+    padding: 30px 20px;
+}
 .search-hotel__btn {
     background-color: #81b3d2;
     font-size: 21px;
     font-weight: 700;
     color: #fff;
     line-height: 26px;
+    width: 280px;
+    display: table;
+    padding: 16px;
+    text-decoration: none;
+    margin: 42px 0 18px;
 }
 .search-hotel__title {
     font-size: 21px;
     font-weight: 700;
     color: #000;
     line-height: 26px;
+    margin: 0 0 32px;
 }
 .search-hotel__desc {
     font-size: 14px;
