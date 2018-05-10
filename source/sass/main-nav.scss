@@ -3,10 +3,49 @@
     font-weight: 700;
     color: #ffffff;
     line-height: 40px;
-}
-.main-nav {
-    outline: 1px solid yellow;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0 7px;
+    text-align: center;
+    border-top: 1px solid #9ac2db;
+    box-shadow: 0 -1px 0 0 #678fa8;
 }
 .main-nav__list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav__logo {
+    display: table;
+    margin: 0 auto -27px;
+}
+.main-nav {
+    position: relative;
+}
+.main-nav__toggle-btn{
+    position: absolute;
+    right: 20px;
+    bottom: 47px;
+    background: transparent;
+    border: none;
+}
+.main-nav__toggle-btn svg{
+    fill: #81b3d2;
+}
+@media(min-width:$tablet) {
+    .main-nav__list {
+        display: flex;
+    }
+    .main-nav__logo {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    .main-nav__toggle-btn {
+        display: none;
+    }
+    .main-nav__link {
+        color: #000000
+    }
 }

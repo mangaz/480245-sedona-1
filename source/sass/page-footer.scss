@@ -1,11 +1,35 @@
+.page-footer {
+    text-align: center;
+    padding: 0 20px;
+}
 .page-footer__tag {
+    display: table;
     font-size: 21px;
     font-weight: 700;
     color: #000;
     line-height: 26px;
+    text-decoration: none;
+    margin: 22px auto;
 }
 .page-footer__desc {
     font-size: 14px;
     color: #000;
     line-height: 26px;
+    margin-right: 12px;
+}
+.page-footer__made-by {
+    padding: 40px 0 22px;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: $tablet) {
+    .page-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .page-footer__made-by {
+        padding: 0;
+    }
 }
