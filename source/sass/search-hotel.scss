@@ -31,5 +31,14 @@
         max-width: 458px;
         margin: 0 auto;
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .search-hotel__btn {
+        width: 100%;
+        padding: 17px;
+    }
+    .search-hotel__title {
+        font-size: 30px;
     }
 }

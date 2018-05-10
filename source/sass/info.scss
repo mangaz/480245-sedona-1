@@ -59,4 +59,16 @@
         margin: 0 auto;
         text-align: center;
     }
+    .info__text-block::after {
+        display: none;
+    }
+    .info__title {
+        font-size: 21px;
+    }
+    .info__image {
+        min-height: 520px;
+    }
+    .info__image::after {
+        display: none;
+    }
 }

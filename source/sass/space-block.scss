@@ -34,4 +34,10 @@
     .space-block {
         width: 33.333333%
     }
+    .space-block__title {
+        font-size: 21px;
+    }
+    .space-block::before {
+        display: none;
+    }
 }

@@ -40,6 +40,27 @@
 }
 @media(min-width:$tablet) {
     .unpicture-block {
-        width: 33.333333%
+        width: 33.333333%;
+        text-align: center;
     }
+    .unpicture-block__title {
+        font-size: 21px;
+        padding-left: 0;
+        padding-top: 102px;
+        position: relative;
+        display: block;
+    }
+    .unpicture-block .unpicture-block__title::before {
+        width: 78px;
+        height: 70px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-right: 0;
+        position: absolute;
+    }
+    .unpicture-block p {
+        padding: 0;
+    }
+
 }
