@@ -42,3 +42,10 @@
         font-size: 30px;
     }
 }
+.search-hotel__btn:hover, .search-hotel__btn:focus {
+    background: #669ec0;
+}
+.search-hotel__btn:active {
+    background: #5496bd;
+    color: #94b9d2;
+}

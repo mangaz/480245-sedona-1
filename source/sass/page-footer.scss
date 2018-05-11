@@ -1,6 +1,6 @@
 .page-footer {
     text-align: center;
-    padding: 0 20px;
+    padding: 0px;
 }
 .page-footer__tag {
     display: table;
@@ -28,8 +28,24 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        max-width: 648px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .page-footer__made-by {
         padding: 0;
+        margin-right: 20px;
+    }
+    .page-footer__last-block {
+        margin-left: 20px;
+    }
+}
+@media (min-width: $desktop) {
+    .page-footer__container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .page-footer {
+        max-width: 960px;
     }
 }

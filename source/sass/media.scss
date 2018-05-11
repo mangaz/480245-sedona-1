@@ -75,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 0;
+    bottom: 100%;
     background-color: rgba(0,0,0,0.6);
     width: 280px;
     height: 44px;
@@ -125,7 +125,111 @@
 .media__video-bar .media__replay {
     margin-right: auto;
 }
-.media__item-img {
+.media__item img {
     display: block;
-    margin-left: -20px;
+    max-width: 100%;
+    height: auto;
+}
+.media__item {
+    margin: 0 -20px;
+}
+.media__item-info {
+    padding: 0 20px;
+} 
+.media__item-wrapper {
+    padding: 0 20px;
+}
+
+@media (min-width:$tablet) {
+    .media {
+        padding: 0;
+    }
+    .media__title-video {
+        font-size: 30px;
+        max-width: 440px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .media__item-video-desc {
+        max-width: 440px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .media__images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .media__wrapper {
+        width: 50%;
+        padding: 0;
+    }
+    .media__wrapper--full {
+        width: 100%;
+    }
+    .media__wrapper::after, .media__wrapper:first-child::before {
+        display: none;
+    }
+    .media__item-info {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .media__item {
+        margin: 0;
+    }
+    .media__video-black-block {
+        position: relative;
+        bottom: 0;
+        background: none;
+        flex-grow: 1;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .media__video-bar {
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        align-items: center;
+        top: initial;
+        bottom: 0;
+    }
+    .media__video-bar svg {
+        fill: #ffffff;
+    }
+    .media__video-info {
+        margin-bottom: 80px;
+    }
+    .media__video-line {
+        width: 100%;
+    }
+}
+
+@media (min-width:$desktop) {
+    .media__wrapper {
+        width: 33.333333%;
+    }
+    .media__wrapper--full {
+        width: 100%;
+    }
+    .media__item-info {
+        background: rgba(0,0,0,0.3);
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+    .media__item-title, .media__item-likes-count, .media__item-text-author {
+        color: #ffffff;
+    }
+    .media__item-like-link svg {
+        fill: #ffffff;
+    }
+    .media__video-info {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

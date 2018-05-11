@@ -11,6 +11,7 @@
 @media(min-width:$tablet) {
     .features__item--wrapper {
         display: flex;
+        padding-top: 0;
     }
     .features__wrapper {
         display: flex;
@@ -19,6 +20,11 @@
         flex-direction: row-reverse;
     }
     .features__item--blue {
-        width: 266px;
+        min-width: 256px;
+    }
+    .features__picture img {
+        display: block;
+        height: auto;
+        max-width: 100%;
     }
 }

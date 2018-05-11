@@ -1,5 +1,8 @@
 .map {
-    margin: 0 -20px;
+    margin: 0px;
+}
+.map img {
+    max-width: 100%;
 }
 @media (min-width: $tablet) {
     .map {
