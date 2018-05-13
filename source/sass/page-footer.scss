@@ -49,3 +49,10 @@
         max-width: 960px;
     }
 }
+
+.page-footer__made-by-link:hover svg, .page-footer__made-by-link:focus svg {
+    fill: #81b3d2;
+}
+.page-footer__made-by-link:active svg{
+    fill: #b2b2b2;
+}

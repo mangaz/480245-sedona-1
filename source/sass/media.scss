@@ -139,6 +139,12 @@
 .media__item-wrapper {
     padding: 0 20px;
 }
+.media__btn:hover svg {
+    fill: #333333;
+}
+.media__btn:active svg {
+    fill: #b8b8b8;
+}
 
 @media (min-width:$tablet) {
     .media {
@@ -203,6 +209,13 @@
     }
     .media__video-line {
         width: 100%;
+    }
+
+    .media__btn:hover svg {
+        fill: #c2c2c2;
+    }
+    .media__btn:active svg {
+        fill: #949494;
     }
 }
 

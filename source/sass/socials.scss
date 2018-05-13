@@ -15,3 +15,12 @@
 .socials__btn svg {
     fill: #fff;
 }
+.socials__btn:hover, .socials__btn:focus {
+    background: #669ec0;
+}
+.socials__btn:active{
+    background: #5496bd;
+}
+.socials__btn:active svg{
+    opacity: 0.3;
+}

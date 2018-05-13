@@ -15,6 +15,8 @@
     }
     .features__wrapper {
         display: flex;
+        height: 256px;
+        overflow: hidden;
     }
     .features__wrapper--reverse {
         flex-direction: row-reverse;

@@ -53,7 +53,7 @@
         <div class="info__image">
         <img class="info__picture" src="img/text-sedona-index.svg" width="282" height="214" alt="welcome-to-sedona">
         </div>
-        <div class="info__text-block">
+        <div class="info__text-block info__text-block--front">
           <h2 class="info__title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
           <p class="info__desc">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
         </div>
@@ -126,19 +126,20 @@
       <section class="search-hotel">
         <h2 class="search-hotel__title">Заинтересовались?</h2>
         <p class="search-hotel__desc">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="search-hotel__btn" href="#">Найти гостиницу</a>
+        <a class="search-hotel__btn" href="/search.html">Найти гостиницу</a>
       </section>
+      <div class="map">
+          <picture>
+            <source media="(max-width: 767px)" srcset="img/bg-map-mobile@1x.jpg 1x, img/bg-map-mobile@2x.jpg 2x">
+            <source media="(max-width: 1199px)" srcset="img/bg-map-tablet@1x.jpg 1x, img/bg-map-tablet@2x.jpg 2x">
+            <source media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.jpg 1x, img/bg-map-desktop@2x.jpg 2x">
+            <img src="img/bg-map-desktop@2x.jpg" width="1200" height="350" alt="мы на карте">
+          </picture>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d527995.2727886352!2d-112.35092143093962!3d34.856594118725745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1526194780025" allowfullscreen></iframe>
+        </div>
     </main>
 
     <footer class="page-footer">
-      <div class="map">
-        <picture>
-          <source media="(max-width: 767px)" srcset="img/bg-map-mobile@1x.jpg 1x, img/bg-map-mobile@2x.jpg 2x">
-          <source media="(max-width: 1199px)" srcset="img/bg-map-tablet@1x.jpg 1x, img/bg-map-tablet@2x.jpg 2x">
-          <source media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.jpg 1x, img/bg-map-desktop@2x.jpg 2x">
-          <img src="img/bg-map-desktop@2x.jpg" width="1200" height="350" alt="мы на карте">
-        </picture>
-      </div>
       <div class="page-footer__last-block page-footer__container">
         <a class="page-footer__tag" href="#">#visitsedona</a>
       </div>

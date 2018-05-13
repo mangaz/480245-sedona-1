@@ -266,3 +266,27 @@
 .sedona-form__label--radio:hover::before{background: #e5e5e5;}
 .sedona-form__label--radio:active::before{background: #d5d5d5;}
 .sedona-form__label--radio:active::after, .sedona-form__radio:checked + .sedona-form__label--radio:active::after{background: #a4a4a4;}
+.sedona-form__radio:focus + .sedona-form__label--radio::before {outline: 1px solid;}
+
+.sedona-form__checkbox:focus + .sedona-form__label--checkbox::before,
+.sedona-form__label--checkbox:hover::before{background: #e5e5e5;}
+.sedona-form__label--checkbox:active::before{background: #d5d5d5;}
+.sedona-form__label--checkbox:active::after, .sedona-form__checkbox:checked + .sedona-form__label--checkbox:active::after{opacity: 0.3;}
+.sedona-form__checkbox:focus + .sedona-form__label--checkbox::before {outline: 1px solid}
+
+.sedona-form__input:hover, .sedona-form__desc-emotions:hover {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+}
+.sedona-form__input:focus, .sedona-form__desc-emotions:focus {
+    background-color: #fff;
+    border-color: #e5e5e5; 
+}
+
+.sedona-form__submit:hover, .sedona-form__submit:focus {
+    background: #669ec0;
+}
+.sedona-form__submit:active {
+    background: #5496bd;
+    color: #94b9d2;
+}
