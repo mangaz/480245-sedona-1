@@ -65,3 +65,25 @@
     }
 
 }
+.unpicture-block .unpicture-block__title::before {
+    display: block;
+    content: "";
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.unpicture-block--house .unpicture-block__title::before{
+    background-image: url(../img/icon-house.svg);
+    width: 38px;
+    height: 36px;
+}
+.unpicture-block--souvenirs .unpicture-block__title::before{
+    background-image: url(../img/icon-gift.svg);
+    width: 32px;
+    height: 38px;
+}
+.unpicture-block--food .unpicture-block__title::before{
+    background-image: url(../img/icon-burger.svg);
+    width: 40px;
+    height: 35px;
+}
