@@ -33,11 +33,11 @@
 @media(min-width:$tablet) {
     .space-block {
         width: 33.333333%;
-        padding: 11px 61px;
+        padding: 11px 20px;
     }
     .space-block__title {
         font-size: 21px;
-        padding: 0 60px;
+        padding: 0 30px;
     }
     .space-block::before {
         display: none;
@@ -46,5 +46,8 @@
 @media(min-width:$desktop) {
     .space-block {
         padding: 39px 61px;
+    }
+    .space-block__title {
+        padding: 0 60px; 
     }
 }

@@ -53,6 +53,13 @@
     left: 0;
     z-index: 1;
 }
+.info__image--form {
+    min-height: 160px;
+    background-position: center center;
+}
+.info__text-block--inside::after {
+    display: none;
+}
 @media(min-width:$tablet) {
     .info__text-block {
         max-width: 488px;
@@ -82,6 +89,9 @@
     .info__picture {
         width: 464px;
         height: auto;
+    }
+    .info__image--form {
+        min-height: 290px;
     }
 }
 @media(min-width:$desktop) {
