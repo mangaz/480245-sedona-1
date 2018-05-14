@@ -251,11 +251,13 @@
         width: 48%;
         margin-top: 0;
         position: relative;
+        flex-wrap: nowrap;
     }
     .sedona-form__block--contacts label {
         width: auto;
         margin-right: 18px;
         position: initial;
+        flex-shrink: 0;
     }
     .sedona-form__block--contacts label::after {
         top: 0;
