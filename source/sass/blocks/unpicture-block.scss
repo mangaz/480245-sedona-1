@@ -10,11 +10,18 @@
     line-height: 26px;
     margin: 0;
 }
+.unpicture-block--house h2 {
+    padding: 6px 0px;
+    margin: 0 -8px;
+}
+.unpicture-block--house p {
+    margin-top: 3px;
+}
 .unpicture-block p {
     font-size: 14px;
     color: #333;
     line-height: 21px;
-    padding-left: 56px;
+    padding-left: 51px;
     margin: 18px 0;
 }
 .unpicture-block .unpicture-block__title::before {
@@ -29,6 +36,8 @@
 .unpicture-block--house .unpicture-block__title::before{
     background-image: url(../img/icon-house.svg);
     height: 36px;
+    margin-left: 8px;
+    margin-right: 10px
 }
 .unpicture-block--souvenirs .unpicture-block__title::before{
     background-image: url(../img/icon-gift.svg);
@@ -44,7 +53,7 @@
         text-align: center;
         margin-top: 35px;
     }
-    .unpicture-block__title {
+    .unpicture-block .unpicture-block__title {
         font-size: 21px;
         padding-left: 0;
         padding-top: 102px;

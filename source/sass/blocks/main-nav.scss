@@ -28,15 +28,15 @@
 }
 .main-nav__logo {
     display: table;
-    margin: 0 auto -27px;
+    margin: 0 auto -43px;
 }
 .main-nav {
     position: relative;
 }
 .main-nav__toggle-btn{
     position: absolute;
-    right: 20px;
-    bottom: 47px;
+    right: 14px;
+    bottom: 58px;
     background: transparent;
     border: none;
 }
@@ -79,6 +79,8 @@
         color: #000000;
         border: none;
         box-shadow: none;
+        font-size: 14px;
+        line-height: 26px;
     }
     .main-nav__link:hover, .main-nav__link:focus {
         color: #8bb9d5;

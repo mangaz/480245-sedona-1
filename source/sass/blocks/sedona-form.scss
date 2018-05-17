@@ -191,6 +191,8 @@
     }
     .sedona-form__title {
         width: 100%;
+        font-size: 21px;
+        line-height: 26px;
     }
     .sedona-form__title span {
         position: relative;
@@ -230,6 +232,10 @@
         margin: 0 auto;
         overflow: hidden;
     }
+    .sedona-form__submit {
+        width: 324px;
+        padding: 17px;
+    }
 }
 @media(min-width:$desktop) {
     .sedona-form__section--rows {
@@ -261,6 +267,9 @@
     }
     .sedona-form__block--contacts label::after {
         top: 0;
+    }
+    .sedona-form__submit {
+        width: 480px;
     }
 }
 

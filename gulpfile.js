@@ -14,13 +14,23 @@ gulp.task("style", function() {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(gulp.dest("source/css"))
+    .pipe(gulp.dest("build/css"))
     .pipe(server.stream());
 });
+gulp.task("copy", function(){
+  gulp.src("source/fonts/*")
+    .pipe(gulp.dest("build/fonts"));
+  
+  gulp.src("source/img/*")
+    .pipe(gulp.dest("build/img"));
+  
+  gulp.src("source/*.html")
+    .pipe(gulp.dest("build"));
+})
+gulp.task("serve", ["copy", "style"], function() {
 
-gulp.task("serve", ["style"], function() {
   server.init({
-    server: "source/",
+    server: "build/",
     notify: false,
     open: true,
     cors: true,
@@ -28,5 +38,5 @@ gulp.task("serve", ["style"], function() {
   });
 
   gulp.watch("source/sass/**/*.{scss,sass}", ["style"]);
-  gulp.watch("source/*.html").on("change", server.reload);
+  gulp.watch("build/*.html").on("change", server.reload);
 });
